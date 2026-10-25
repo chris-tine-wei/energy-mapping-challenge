@@ -126,9 +126,8 @@ header {
   <script>
 const map = L.map('map');
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png?key=cb1_4f1n_1_78afe8bcf5a4043ff6ac084b', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-  subdomains: 'abcd',
   maxZoom: 19
 }).addTo(map);
 
